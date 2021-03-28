@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+#introduction-section{
+    margin-bottom: 1rem;
+}
+#introduction-section > p {
+    margin: 1rem 0;
+}
+
+.component-name{
+    margin-bottom: 2rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(189, 189, 189);
+    padding: 1.5rem;
+    position: fixed;
+    width: 300px;
+    left: 0;
+    height: 100vh;
+}
+.nav-link{
+    margin:0.7rem 3rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    
+}
+.nav-link:hover{
+    color:coral
+}
+
+/* Main section css */
+
+.main-section{
+    padding: 2rem;
+    width: 75%;
+    position: relative;
+    left: 300px;
+}
+
+ /* Buttom section css */
+
+.btn-example{
+    border: 1px solid rgb(189, 189, 189);
+    padding: 1rem 9px;
+    margin:1rem 0;
+    border-radius: 5px;
+}
+.btn{
+    margin: 0.2rem;
+}
+.btn-content{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding:1rem 0rem;
+}
+#button-section{
+    margin-bottom: 1rem;
+}
+.btn-code{
+    display:block
+}
+
+/* Avatar Section css */
+
+.avatar-example{
+    border: 1px solid rgb(189, 189, 189);
+    padding: 1rem 9px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.avatar{
+    margin: 0.5rem;
+}
+.avatar-content{
+    padding: 1rem 0;
+
+}
+#avatar-section{
+    margin-bottom: 1rem;
+}
+
+/* Image section css */
+
+.image-example{
+    width:30%;
+    padding: 1rem 9px;
+    margin: 0.5rem 0rem;
+    border-radius: 5px;
+}
+.image-content{
+    padding: 1rem 0;
+}
+#image-section{
+    margin-bottom: 1rem;
+}
+
+/* Alert section css */
+
+.alert-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:90%;
+    padding: 1rem 15px;
+    margin:0.5rem 0 1.5rem 0;
+    border-radius: 5px
+}
+.alert-content{
+    padding: 1rem 0;
+}
+#alert-section{
+    margin-bottom: 1rem;
+}
+.alert-code{
+    margin-top: 5px;
+}
+
+/* Rating section css */
+
+.rating-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:30%;
+    padding: 1rem 9px;
+    margin: 0.5rem 0rem;
+    border-radius: 5px
+}
+.rating-content{
+    padding: 1rem 0;
+}
+#rating-section{
+    margin-bottom: 1rem;
+}
+
+/* Badges section css */
+
+.badge-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:30%;
+    padding: 1rem 9px;
+    margin: 0.5rem 0rem;
+    border-radius:5px
+}
+.badge-content{
+    padding: 1rem 0;
+}
+#badge-section{
+    margin-bottom: 1rem;
+}
+.bm{
+    margin:0rem 0.5rem
+}
+
+/* Input section css */
+
+.input-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:30%;
+    padding: 1rem 9px;
+    margin: 0.5rem 0rem;
+    border-radius:5px
+}
+.input-content{
+    padding: 1rem 0;
+}
+#input-section{
+    margin-bottom: 1rem;
+}
+
+/* Navbar section css */
+
+.navbar-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:100%;
+    padding: 1rem 9px;
+    margin: 0.5rem 0rem;
+    border-radius:5px 
+}
+.navbar-content{
+    padding: 1rem 0;
+}
+#navbar-section{
+    margin-bottom: 1rem;
+}
+
+/* List section */
+
+.list-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:50%;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    border-radius:5px 
+}
+.list-content{
+    padding: 1rem 0;
+}
+#list-section{
+    margin-bottom: 1rem;
+}
+
+/* Form section css */
+
+.form-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:50%;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    border-radius:5px 
+}
+.form-content{
+    padding: 1rem 0;
+}
+#form-section{
+    margin-bottom: 1rem;
+}
+
+/* Card section css */
+
+.card-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:100%;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    border-radius:5px ;
+}
+.card-content{
+    padding: 1rem 0;
+}
+#card-section{
+    margin-bottom: 1rem;
+}
+
+/* Typography section css */
+
+.typography-example{
+    border: 1px solid rgb(189, 189, 189);
+    width:100%;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    border-radius:5px ;
+}
+.typography-content{
+    padding: 1rem 0;
+}
+#typography-section{
+    margin-bottom: 1rem;
+}

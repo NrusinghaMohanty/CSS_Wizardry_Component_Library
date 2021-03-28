@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Merriweather&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    height: 13vh;
+    background-color:#3B82F6;
+}
+
+.nav-left{
+   margin-left: 2.5rem;
+   margin-top: 0.7rem;
+}
+.nav-logo{
+    color: antiquewhite;
+}
+
+.version{
+    color: antiquewhite;
+    font-size: 1.2rem;
+}
+.nav-right{
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+.nav-link{
+    color: antiquewhite;
+    margin-right: 1rem;
+    text-decoration: none;
+    margin-left: 0.2rem;
+}
+
+.section{
+    height: 77vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-link{
+    margin: 0.6rem;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    color:#fff;
+    background-color: #3B82F6;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.section-text{
+    width: 60%;
+    font-size: 1.4rem;
+    padding:1rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.section-link:hover{
+  cursor: pointer;
+  background-color:  #2563EB;
+}
+.section-text > p {
+    margin:1rem 0
+}
+
+.footer{
+    height: 10vh;
+    text-align: center;
+    padding:0.8rem;
+    font-size: 2rem;
+    background-color: rgb(31, 29, 29);
+}
+.footer > a {
+    margin: 0 1rem;
+    color: #fff;
+}
+.footer > a:hover{
+    color:#2563EB ;
+}
