@@ -1,4 +1,15 @@
-
+:root{
+  --primary-bg-color: #0d6efd;
+  --secondary-bg-color: #6c757d;
+  --success-bg-color: #198754;
+  --danger-bg-color: #dc3545;
+  --waring-bg-color: #ffc107;
+  --info-bg-color: #b6effb;
+  --dark-bg-color: #212529;
+  --light-bg-color: #f8f9fa;
+  --online-icon-color: #73e217;
+  --offline-icon-color: #DC2626 ;
+}
 .btn{
   outline: none;
   border: none;
@@ -9,40 +20,39 @@
 }
 .primary-btn{
     color: #fff;
-    background-color: #0d6efd;
+    background-color: var(--primary-bg-color);
 }
 .secondary-btn{
     color:#fff;
-    background-color:#6c757d;
+    background-color:var(--secondary-bg-color);
 }
 .success-btn{
     color:#fff;
-    background-color:#198754;
+    background-color:var(--success-bg-color);
 }
 .danger-btn{
     color:#fff;
-    background-color:#dc3545;
+    background-color:var(--danger-bg-color);
 }
 .warning-btn{
     color:black;
-    background-color: #ffc107;
+    background-color: var(--waring-bg-color)
 }
 .info-btn{
     color:black;
-    background-color: #0dcaf0;
+    background-color: var(--info-bg-color)
 }
 .dark-btn{
     color:#fff;
-    background-color: #212529;
-}
-.dark-btn{
-    color:#fff;
-    background-color: #212529;
+    background-color: var(--dark-bg-color)
 }
 .light-btn{
     color:#000;
-    background-color: #f8f9fa;
+    background-color: var(--light-bg-color)
 }
+
+/* Avatar section css */
+
 .avatar-small{
     width: 3.1rem;
     height: 3.1rem;
@@ -76,24 +86,20 @@
     margin:10px 0;
   }
   .danger-alert{
-    color: #842029;
-    background-color: #f8d7da;
-    border-color: #f5c2c7;
+    color: #fff;
+    background-color: var(--danger-bg-color);
   }
   .success-alert{
-    color: #0f5132;
-    background-color: #d1e7dd;
-    border-color: #badbcc;
+    color: #fff;
+    background-color: var(--success-bg-color);
   }
   .warning-alert{
     color: #664d03;
-    background-color: #fff3cd;
-    border-color: #ffecb5;
+    background-color: var(--waring-bg-color);
   }
   .info-alert{
     color: #055160;
-    background-color: #cff4fc;
-    border-color: #b6effb;
+    background-color: var(--info-bg-color)
   }
   
   .dismiss-btn {
@@ -213,11 +219,11 @@
     opacity: 0.7;
   }
  .online{
-  background-color: #73e217;
+  background-color: var(--online-icon-color);
   border: 1px solid whitesmoke;
  }
  .offline{
-   background-color: rgb(214, 29, 29);
+   background-color: var(--offline-icon-color);
    border: 1px solid whitesmoke;
  }
 
